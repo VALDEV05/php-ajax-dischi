@@ -1,0 +1,11 @@
+:root {
+    --color-brand: #1ED760;
+    --color-light: #2E3A46;
+    --color-dark: #1E2D3B;
+    --color-title: #ffffff;
+    --color-subtitle: #808080;
+}
+
+#site_header {
+    background-color: var(--color-light);
+}
