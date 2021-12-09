@@ -33,3 +33,9 @@ body {
 p {
     margin-bottom: 0 !important;
 }
+
+.img-disk {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}

@@ -5,15 +5,16 @@ const app = new Vue({
         error: null,
     },
     mounted() {
+        /* api call  */
         axios
             .get('assets/api/disks.php')
-
-        .then(response => {
-            this.disks = response.data
-            console.log(this.disks);
-        }).catch(error => {
-            this.error = error
-            console.log(this.error);
-        })
+            .then(response => {
+                /* get api data */
+                this.disks = response.data
+            }).catch(error => {
+                /* catch api error */
+                this.error = error
+                console.log(this.error);
+            })
     }
 })

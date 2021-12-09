@@ -21,11 +21,11 @@
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div id="app">
+        <div id="app" class="container-fluid">
            <div class="row gx-5 my-5 d-flex justify-content-center" >
                 <div class="col-md-2 text-center card_disk my-3" v-for="disk in disks" :key="disk.title">
-            <div class="card rounded-0 p-4">
-            <img :src="disk.poster" :alt="disk.author" class="img-fluid" />
+            <div class="card rounded-0 p-2">
+            <img :src="disk.poster" :alt="disk.author" class="img-disk" />
             <h1 class="title mt-3">{{ disk.title }}</h1>
             <div class="text mt-4">
                 <p>{{ disk.author }}</p>
