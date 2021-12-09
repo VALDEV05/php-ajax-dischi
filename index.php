@@ -1,9 +1,10 @@
-    <?php include __DIR__ .  '@/assets/particles/head.php'; ?>
+    <?php 
+    include __DIR__ . '/assets/particles/head.php';; 
+    ?>
     <body>
     <header id=site_header>
         <div class="p-2">
-            <?php include __DIR__ .  '@/assets/particles/logo.php'; ?>
-            
+            <?php include __DIR__ . '/assets/particles/logo.php'; ?>
         </div>
     </header>
     <!-- /#site_header -->
